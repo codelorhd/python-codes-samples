@@ -1,5 +1,14 @@
 """
-Simple cotyledon program
+Simple cotyledon
+
+Now that we have become aware of the difference between 
+multithreading and multiprocessing in Python, it becomes 
+more clear that using multiple processes to schedule 
+different jobs is efficient.
+
+A widespread use case is to run long-running, background processes 
+(often called daemons) that are responsible for scheduling 
+some tasks regularly or processing jobs from a queue.
 """
 
 import threading
